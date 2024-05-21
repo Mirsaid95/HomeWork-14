@@ -143,6 +143,7 @@ button{
     grid-template-columns: repeat(2, 1fr);
     padding: 40px 0px;
     gap: 50px; 
+    text-transform: uppercase;
 }
 .graphic-box{
     width: 100%;
@@ -164,6 +165,7 @@ button{
 .post-info h1{
     font-size: 30px;
     font-family:Calisto MT;
+    text-transform: uppercase;
 
 }
 
@@ -195,11 +197,16 @@ footer{
 }
 .categories h5{
     padding-right: 200px;
+    color: gray;
+}
+.categories h4{
+    color: gray;
+    font-size: 15px;
 }
 
 
 .footer-second{
-    width: 80%;
+    width: 100%;
     display: flex;
     gap: 220px
 }
@@ -214,10 +221,14 @@ footer{
     color: white;
     
 }
-.infor ul{
+.infor ul li {
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .infor-btn{
+    width: 20%;
     display: flex;
 
 }
@@ -231,4 +242,32 @@ footer{
     background-color: #2b2929;
     outline: none;
     border: none;
+}
+ /* infotmatinon */
+
+ .footer-three{
+    width: 100%;
+    display: flex;
+    padding: 100px 0px;
+ }
+.information{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.information p {
+    color: gray;
+    font-size: 15px;
+}
+
+.information ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.information ul li a{
+    color:white;
+    font-size: 20px;
 }
